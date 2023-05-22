@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AislePoc</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="enter_your_phone_number">Enter Your \nPhone Number</string>
+    <string name="Continue">Continue</string>
+    <string name="enter_the_otp">Enter The \nOTP</string>
+    <string name="notes">Notes</string>
+    <string name="interested_in_you">Interested In You</string>
+    <string name="Premium_members">Premium members can \nview all their likes at once </string>
+    <string name="upgrade">Upgrade</string>
+    <string name="personal_messages">Personal messages to you</string>
+</resources>
