@@ -1,4 +1,4 @@
-package com.example.aislepoc.notes
+package com.example.aislepoc.ui.notes
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

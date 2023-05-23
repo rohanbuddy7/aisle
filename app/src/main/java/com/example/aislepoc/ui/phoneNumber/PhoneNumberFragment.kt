@@ -1,4 +1,4 @@
-package com.example.aislepoc.phoneNumber
+package com.example.aislepoc.ui.phoneNumber
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -10,7 +10,9 @@ import androidx.navigation.Navigator
 import androidx.navigation.fragment.findNavController
 import com.example.aislepoc.R
 import com.example.aislepoc.databinding.FragmentPhoneBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class PhoneNumberFragment : Fragment() {
 
     private var _binding: FragmentPhoneBinding? = null

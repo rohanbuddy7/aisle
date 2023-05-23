@@ -1,4 +1,4 @@
-package com.example.aislepoc.otp
+package com.example.aislepoc.ui.otp
 
 import android.os.Bundle
 import android.os.CountDownTimer
@@ -9,9 +9,10 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.aislepoc.R
 import com.example.aislepoc.databinding.FragmentOtpBinding
+import dagger.hilt.android.AndroidEntryPoint
 import java.util.Locale
 
-
+@AndroidEntryPoint
 class OtpFragment : Fragment() {
     private var countDownTimer: CountDownTimer? = null
     private var phone: String? = null
