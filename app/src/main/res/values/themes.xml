@@ -25,4 +25,21 @@
         <item name="fontFamily">@font/gilroy_medium</item>
     </style>
 
+    <style name="CustomMediumInter" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="fontFamily">@font/inter_medium</item>
+    </style>
+
+    <style name="CustomBoldInter" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="fontFamily">@font/inter_bold</item>
+    </style>
+
+    <style name="EdittextCustomBoldInter" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:padding">13dp</item>
+        <item name="fontFamily">@font/inter_bold</item>
+    </style>
+
+
 </resources>

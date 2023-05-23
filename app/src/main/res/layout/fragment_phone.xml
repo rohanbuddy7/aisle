@@ -3,12 +3,71 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
     tools:context=".phoneNumber.PhoneNumberFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/get_otp"
+            style="@style/CustomMediumInter"
+            android:textSize="@dimen/text_medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/enter_your_phone_number"
+            android:textSize="@dimen/text_xlarge"
+            style="@style/CustomBoldInter"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_white_round_grey"
+                android:textSize="@dimen/text_medium"
+                android:text="@string/indiaCode"
+                android:theme="@style/EdittextCustomBoldInter"
+                android:textColor="@color/black"
+                android:enabled="false"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="9999999999"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bg_white_round_grey"
+                android:theme="@style/EdittextCustomBoldInter"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/Continue"
+            android:backgroundTint="@color/yellow"
+            android:theme="@style/CustomBoldInter"
+            android:padding="15dp"
+            android:letterSpacing="0.05"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="30dp"
+            app:elevation="0dp"/>
+
+    </LinearLayout>
 
 </FrameLayout>
