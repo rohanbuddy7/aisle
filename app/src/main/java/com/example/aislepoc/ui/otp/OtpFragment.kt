@@ -99,7 +99,7 @@ class OtpFragment : Fragment() {
     fun proceed(token: String){
         val bundle = Bundle()
         bundle.putString("token", token)
-        findNavController().navigate(R.id.action_otpFragment_to_notesFragment)
+        findNavController().navigate(R.id.action_otpFragment_to_notesFragment, bundle)
     }
 
     fun startTimer(){

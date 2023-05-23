@@ -9,6 +9,7 @@ import com.example.aislepoc.data.auto.ProfileResponse
 import com.example.aislepoc.utils.Constants
 import retrofit2.Response
 import retrofit2.http.Body
+import retrofit2.http.GET
 import retrofit2.http.Header
 import retrofit2.http.POST
 
@@ -24,8 +25,7 @@ interface ApiService {
         @Body otpRequest: OtpRequest
     ): Response<OtpResponse>
 
-
-    @POST("users/test_profile_list")
+    @GET("users/test_profile_list")
     suspend fun getProfiles(
         @Header(Constants.Authorization) token: String,
     ): Response<ProfileResponse>
