@@ -9,4 +9,6 @@
     <string name="Premium_members">Premium members can \nview all their likes at once </string>
     <string name="upgrade">Upgrade</string>
     <string name="personal_messages">Personal messages to you</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
