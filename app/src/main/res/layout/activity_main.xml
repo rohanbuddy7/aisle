@@ -30,6 +30,7 @@
         app:itemTextAppearanceInactive="@style/BottomNavigation.InActiveItemTextAppearance"
         app:itemTextColor="@drawable/bottom_navigation_colors"
         app:labelVisibilityMode="labeled"
-        app:menu="@menu/menu"/>
+        app:menu="@menu/menu"
+        android:visibility="gone"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
