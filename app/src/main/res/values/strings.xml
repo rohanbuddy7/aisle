@@ -6,7 +6,7 @@
     <string name="enter_the_otp">Enter The \nOTP</string>
     <string name="notes_">Notes</string>
     <string name="interested_in_you">Interested In You</string>
-    <string name="Premium_members">Premium members can \nview all their likes at once </string>
+    <string name="Premium_members">Premium members can view all their likes at once</string>
     <string name="upgrade">Upgrade</string>
     <string name="personal_messages">Personal messages to you</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -15,4 +15,5 @@
     <string name="matches">Matches</string>
     <string name="profile">Profile</string>
     <string name="indiaCode">+91</string>
+    <string name="tapToReview">Tap to review 50+ notes</string>
 </resources>
