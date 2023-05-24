@@ -10,6 +10,7 @@
     <color name="black_opacity1">#3E000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#BCBCBC</color>
+    <color name="grey1">#828282</color>
     <color name="grey_light">#75BCBCBC</color>
     <color name="darkgrey">#9A1B1822</color>
     <color name="yellow">#F7C110</color>

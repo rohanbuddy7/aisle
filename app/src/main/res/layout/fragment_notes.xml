@@ -110,8 +110,8 @@
                         android:layout_height="wrap_content"
                         android:text="@string/Premium_members"
                         android:theme="@style/CustomMediumGilroy"
-                        android:textColor="@color/grey"
-                        android:textSize="@dimen/text_xsmall"/>
+                        android:textColor="@color/grey1"
+                        android:textSize="@dimen/text_small"/>
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
 
